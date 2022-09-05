@@ -13,7 +13,6 @@ Feature: Account Management
       | Adejoke   | Ayoola   | ayoola@gmail.com | #Testing567 | #Testing567     |
 
 
-
   Scenario Outline: Account Login with username and password
     Given I am on login page
     When I enter "<Email>" "<Password>"
@@ -21,5 +20,5 @@ Feature: Account Management
     Then My account page is displayed
 
     Examples:
-    |Email| |Password|
-    |ayoola@gmail.com |
+      | Email            | Password    |
+      | ayoola@gmail.com | #Testing567 |

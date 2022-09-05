@@ -40,4 +40,16 @@ public class AccountManagementSteps {
     @Then("My account page is displayed")
     public void myAccountPageIsDisplayed() {
     }
+
+    @Given("I am on login page")
+    public void iAmOnLoginPage() {
+    }
+
+    @When("I enter {string} {string}")
+    public void iEnter(String Email, String Password) {
+    }
+
+    @And("I Click on sign in")
+    public void iClickOnSignIn() {
+    }
 }
