@@ -10,7 +10,7 @@ Feature: Account Management
 
     Examples:
       | Firstname | Lastname | Email            | Password    | ConfirmPassword |
-      | Adejoke   | Ayoola   | ayoola@gmail.com | #Testing567 | #Testing567     |
+      | Adejoke   | Ayoola   | ayoola88@gmail.com | #Testing567 | #Testing567     |
 
 
   Scenario Outline: Account Login with username and password
